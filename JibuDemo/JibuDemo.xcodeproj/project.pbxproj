@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18018B831DC048230007843C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18018B821DC048230007843C /* main.m */; };
+		18018B861DC048230007843C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18018B851DC048230007843C /* AppDelegate.m */; };
+		18018B891DC048230007843C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18018B881DC048230007843C /* ViewController.m */; };
+		18018B8C1DC048230007843C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18018B8A1DC048230007843C /* Main.storyboard */; };
+		18018B8E1DC048230007843C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18018B8D1DC048230007843C /* Assets.xcassets */; };
+		18018B911DC048230007843C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18018B8F1DC048230007843C /* LaunchScreen.storyboard */; };
+		18018B9C1DC048230007843C /* JibuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18018B9B1DC048230007843C /* JibuDemoTests.m */; };
+		18018BA71DC048230007843C /* JibuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18018BA61DC048230007843C /* JibuDemoUITests.m */; };
+		18018BB61DC04A9E0007843C /* StepManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18018BB51DC04A9E0007843C /* StepManager.m */; };
+		18018BB91DC04AB60007843C /* StepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18018BB81DC04AB60007843C /* StepModel.m */; };
+		18018BBF1DC055DD0007843C /* PedometerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18018BBE1DC055DD0007843C /* PedometerManager.m */; };
+		185DDF211DC1B0B40001A642 /* MMPDeepSleepPreventer.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DDF1F1DC1B0B40001A642 /* MMPDeepSleepPreventer.m */; };
+		185DDF221DC1B0B40001A642 /* MMPSilence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 185DDF201DC1B0B40001A642 /* MMPSilence.wav */; };
+		186B565A1DC882FB00439C9A /* OC2C.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B56591DC882FB00439C9A /* OC2C.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18018B981DC048230007843C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18018B761DC048230007843C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18018B7D1DC048230007843C;
+			remoteInfo = JibuDemo;
+		};
+		18018BA31DC048230007843C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18018B761DC048230007843C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18018B7D1DC048230007843C;
+			remoteInfo = JibuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18018B7E1DC048230007843C /* JibuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JibuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18018B821DC048230007843C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18018B841DC048230007843C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18018B851DC048230007843C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18018B871DC048230007843C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18018B881DC048230007843C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18018B8B1DC048230007843C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18018B8D1DC048230007843C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18018B901DC048230007843C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18018B921DC048230007843C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18018B971DC048230007843C /* JibuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JibuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18018B9B1DC048230007843C /* JibuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JibuDemoTests.m; sourceTree = "<group>"; };
+		18018B9D1DC048230007843C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18018BA21DC048230007843C /* JibuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JibuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18018BA61DC048230007843C /* JibuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JibuDemoUITests.m; sourceTree = "<group>"; };
+		18018BA81DC048230007843C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18018BB41DC04A9E0007843C /* StepManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepManager.h; sourceTree = "<group>"; };
+		18018BB51DC04A9E0007843C /* StepManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepManager.m; sourceTree = "<group>"; };
+		18018BB71DC04AB60007843C /* StepModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepModel.h; sourceTree = "<group>"; };
+		18018BB81DC04AB60007843C /* StepModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepModel.m; sourceTree = "<group>"; };
+		18018BBD1DC055DD0007843C /* PedometerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PedometerManager.h; sourceTree = "<group>"; };
+		18018BBE1DC055DD0007843C /* PedometerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PedometerManager.m; sourceTree = "<group>"; };
+		185DDF1E1DC1B0B40001A642 /* MMPDeepSleepPreventer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPDeepSleepPreventer.h; sourceTree = "<group>"; };
+		185DDF1F1DC1B0B40001A642 /* MMPDeepSleepPreventer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPDeepSleepPreventer.m; sourceTree = "<group>"; };
+		185DDF201DC1B0B40001A642 /* MMPSilence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MMPSilence.wav; sourceTree = "<group>"; };
+		186B56581DC882FB00439C9A /* OC2C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OC2C.h; sourceTree = "<group>"; };
+		186B56591DC882FB00439C9A /* OC2C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OC2C.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18018B7B1DC048230007843C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18018B941DC048230007843C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18018B9F1DC048230007843C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18018B751DC048230007843C = {
+			isa = PBXGroup;
+			children = (
+				18018B801DC048230007843C /* JibuDemo */,
+				18018B9A1DC048230007843C /* JibuDemoTests */,
+				18018BA51DC048230007843C /* JibuDemoUITests */,
+				18018B7F1DC048230007843C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18018B7F1DC048230007843C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18018B7E1DC048230007843C /* JibuDemo.app */,
+				18018B971DC048230007843C /* JibuDemoTests.xctest */,
+				18018BA21DC048230007843C /* JibuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18018B801DC048230007843C /* JibuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				185DDF1E1DC1B0B40001A642 /* MMPDeepSleepPreventer.h */,
+				185DDF1F1DC1B0B40001A642 /* MMPDeepSleepPreventer.m */,
+				185DDF201DC1B0B40001A642 /* MMPSilence.wav */,
+				18018BB71DC04AB60007843C /* StepModel.h */,
+				18018BB81DC04AB60007843C /* StepModel.m */,
+				186B56581DC882FB00439C9A /* OC2C.h */,
+				186B56591DC882FB00439C9A /* OC2C.m */,
+				18018BB41DC04A9E0007843C /* StepManager.h */,
+				18018BB51DC04A9E0007843C /* StepManager.m */,
+				18018BBD1DC055DD0007843C /* PedometerManager.h */,
+				18018BBE1DC055DD0007843C /* PedometerManager.m */,
+				18018B841DC048230007843C /* AppDelegate.h */,
+				18018B851DC048230007843C /* AppDelegate.m */,
+				18018B871DC048230007843C /* ViewController.h */,
+				18018B881DC048230007843C /* ViewController.m */,
+				18018B8A1DC048230007843C /* Main.storyboard */,
+				18018B8D1DC048230007843C /* Assets.xcassets */,
+				18018B8F1DC048230007843C /* LaunchScreen.storyboard */,
+				18018B921DC048230007843C /* Info.plist */,
+				18018B811DC048230007843C /* Supporting Files */,
+			);
+			path = JibuDemo;
+			sourceTree = "<group>";
+		};
+		18018B811DC048230007843C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18018B821DC048230007843C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18018B9A1DC048230007843C /* JibuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18018B9B1DC048230007843C /* JibuDemoTests.m */,
+				18018B9D1DC048230007843C /* Info.plist */,
+			);
+			path = JibuDemoTests;
+			sourceTree = "<group>";
+		};
+		18018BA51DC048230007843C /* JibuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18018BA61DC048230007843C /* JibuDemoUITests.m */,
+				18018BA81DC048230007843C /* Info.plist */,
+			);
+			path = JibuDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18018B7D1DC048230007843C /* JibuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18018BAB1DC048230007843C /* Build configuration list for PBXNativeTarget "JibuDemo" */;
+			buildPhases = (
+				18018B7A1DC048230007843C /* Sources */,
+				18018B7B1DC048230007843C /* Frameworks */,
+				18018B7C1DC048230007843C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JibuDemo;
+			productName = JibuDemo;
+			productReference = 18018B7E1DC048230007843C /* JibuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18018B961DC048230007843C /* JibuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18018BAE1DC048230007843C /* Build configuration list for PBXNativeTarget "JibuDemoTests" */;
+			buildPhases = (
+				18018B931DC048230007843C /* Sources */,
+				18018B941DC048230007843C /* Frameworks */,
+				18018B951DC048230007843C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18018B991DC048230007843C /* PBXTargetDependency */,
+			);
+			name = JibuDemoTests;
+			productName = JibuDemoTests;
+			productReference = 18018B971DC048230007843C /* JibuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18018BA11DC048230007843C /* JibuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18018BB11DC048230007843C /* Build configuration list for PBXNativeTarget "JibuDemoUITests" */;
+			buildPhases = (
+				18018B9E1DC048230007843C /* Sources */,
+				18018B9F1DC048230007843C /* Frameworks */,
+				18018BA01DC048230007843C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18018BA41DC048230007843C /* PBXTargetDependency */,
+			);
+			name = JibuDemoUITests;
+			productName = JibuDemoUITests;
+			productReference = 18018BA21DC048230007843C /* JibuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18018B761DC048230007843C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = callwan;
+				TargetAttributes = {
+					18018B7D1DC048230007843C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9U69QA8XS4;
+						ProvisioningStyle = Automatic;
+					};
+					18018B961DC048230007843C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9U69QA8XS4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18018B7D1DC048230007843C;
+					};
+					18018BA11DC048230007843C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9U69QA8XS4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18018B7D1DC048230007843C;
+					};
+				};
+			};
+			buildConfigurationList = 18018B791DC048230007843C /* Build configuration list for PBXProject "JibuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18018B751DC048230007843C;
+			productRefGroup = 18018B7F1DC048230007843C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18018B7D1DC048230007843C /* JibuDemo */,
+				18018B961DC048230007843C /* JibuDemoTests */,
+				18018BA11DC048230007843C /* JibuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18018B7C1DC048230007843C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18018B911DC048230007843C /* LaunchScreen.storyboard in Resources */,
+				18018B8E1DC048230007843C /* Assets.xcassets in Resources */,
+				18018B8C1DC048230007843C /* Main.storyboard in Resources */,
+				185DDF221DC1B0B40001A642 /* MMPSilence.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18018B951DC048230007843C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18018BA01DC048230007843C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18018B7A1DC048230007843C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186B565A1DC882FB00439C9A /* OC2C.m in Sources */,
+				185DDF211DC1B0B40001A642 /* MMPDeepSleepPreventer.m in Sources */,
+				18018BB91DC04AB60007843C /* StepModel.m in Sources */,
+				18018BBF1DC055DD0007843C /* PedometerManager.m in Sources */,
+				18018B891DC048230007843C /* ViewController.m in Sources */,
+				18018B861DC048230007843C /* AppDelegate.m in Sources */,
+				18018B831DC048230007843C /* main.m in Sources */,
+				18018BB61DC04A9E0007843C /* StepManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18018B931DC048230007843C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18018B9C1DC048230007843C /* JibuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18018B9E1DC048230007843C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18018BA71DC048230007843C /* JibuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18018B991DC048230007843C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18018B7D1DC048230007843C /* JibuDemo */;
+			targetProxy = 18018B981DC048230007843C /* PBXContainerItemProxy */;
+		};
+		18018BA41DC048230007843C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18018B7D1DC048230007843C /* JibuDemo */;
+			targetProxy = 18018BA31DC048230007843C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18018B8A1DC048230007843C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18018B8B1DC048230007843C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18018B8F1DC048230007843C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18018B901DC048230007843C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18018BA91DC048230007843C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18018BAA1DC048230007843C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18018BAC1DC048230007843C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9U69QA8XS4;
+				INFOPLIST_FILE = JibuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.callwan.JibuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18018BAD1DC048230007843C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9U69QA8XS4;
+				INFOPLIST_FILE = JibuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.callwan.JibuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18018BAF1DC048230007843C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9U69QA8XS4;
+				INFOPLIST_FILE = JibuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.callwan.JibuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JibuDemo.app/JibuDemo";
+			};
+			name = Debug;
+		};
+		18018BB01DC048230007843C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9U69QA8XS4;
+				INFOPLIST_FILE = JibuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.callwan.JibuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JibuDemo.app/JibuDemo";
+			};
+			name = Release;
+		};
+		18018BB21DC048230007843C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9U69QA8XS4;
+				INFOPLIST_FILE = JibuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.callwan.JibuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JibuDemo;
+			};
+			name = Debug;
+		};
+		18018BB31DC048230007843C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9U69QA8XS4;
+				INFOPLIST_FILE = JibuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.callwan.JibuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JibuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18018B791DC048230007843C /* Build configuration list for PBXProject "JibuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18018BA91DC048230007843C /* Debug */,
+				18018BAA1DC048230007843C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18018BAB1DC048230007843C /* Build configuration list for PBXNativeTarget "JibuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18018BAC1DC048230007843C /* Debug */,
+				18018BAD1DC048230007843C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18018BAE1DC048230007843C /* Build configuration list for PBXNativeTarget "JibuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18018BAF1DC048230007843C /* Debug */,
+				18018BB01DC048230007843C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18018BB11DC048230007843C /* Build configuration list for PBXNativeTarget "JibuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18018BB21DC048230007843C /* Debug */,
+				18018BB31DC048230007843C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18018B761DC048230007843C /* Project object */;
+}
